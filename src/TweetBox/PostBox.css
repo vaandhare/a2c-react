@@ -1,0 +1,36 @@
+.postbox{
+    padding-bottom: 10px;
+    border-bottom: 8px solid var(--aware2change-background);
+    padding-right: 10px;
+}
+
+.postbox > form{
+    display: flex;
+    flex-direction: column;
+}
+
+.postBoxInput {
+    display: flex;
+    padding: 20px;
+}
+
+.postBoxInput > input{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+}
+
+.postboxButton{
+    background-color: var(--aware2change-color) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    width: 80px;
+    height: 40px !important;
+    margin-top: 20px !important;
+    margin-left: auto !important;
+  
+}

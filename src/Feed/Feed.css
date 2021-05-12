@@ -1,0 +1,16 @@
+.feed{
+    flex: 0.6;
+    border-right: 1px solid var(--aware2change-background);
+    /* min-width: fit-content; */
+    overflow-y: scroll;
+    background-color: aliceblue;
+}
+
+.feed::-webkit-scrollbar{
+    display: none;
+}
+
+.feed {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}

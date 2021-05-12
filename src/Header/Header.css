@@ -1,0 +1,69 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+   position: sticky;
+  z-index: 100;
+  top: 0;
+  box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.5);
+}
+
+.headerLogo {
+  color: var(--aware2change-color);
+  font-size: 30px !important;
+  margin-right: 20px;
+  font-family: 'Philosopher' !important;
+  font-weight: bolder;
+}
+
+.headerInput {
+  display: flex;
+  width: 500px !important;
+  align-items: center;
+  border: 1px solid lightgray;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.headerInput > input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: rgb(49, 49, 49);
+}
+
+.headerInput > .MuiSvgIcon-root {
+  color: gray;
+}
+
+.headerRem {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.headerRem > .MuiSvgIcon-root {
+  font-size: xx-large;
+  color: gray;
+  margin-left: 25px;
+  cursor: pointer;
+}
+.headerRem > .MuiSvgIcon-root:hover {
+  color: #b92b27;
+}
+
+.headerRem > .MuiButton-root {
+  color: white;
+  background: #b92b27;
+  text-transform: inherit;
+  border-radius: 20px;
+  margin-left: 25px;
+}
+
+.headerRem > .MuiButton-root:hover {
+  color: #ffffff;
+  background: #8f1f1b;
+}

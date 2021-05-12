@@ -1,0 +1,17 @@
+.sidebar{
+    border-right: 1px solid var(--aware2change-background);
+    flex: 0.2;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* .sidebarLogo{
+    color: var(--aware2change-color);
+    font-size: 50px !important;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Philosopher' !important;
+    font-weight: bolder;
+} */

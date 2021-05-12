@@ -1,0 +1,43 @@
+.post {
+    display: flex;
+    align-items: flex-start;
+    margin: 8px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+  
+.postBody {
+    flex: 1;
+    padding: 30px;
+}
+  
+.postBody > img {
+    border-radius: 20px;
+}
+
+.postHeaderText{
+    font-size: 18px;
+    font-weight: bold;
+}
+  
+.postDescription {
+    font-size: 15px;
+}
+  
+.postFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.postFooterIcons{
+    display: flex;
+    align-items: center;
+}
+
+.postFooterIcons > h4{
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
